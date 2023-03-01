@@ -16,7 +16,8 @@ body {
 
 .hero-secondary-text,
 a,
-.bottom-text {
+.bottom-text,
+.copyright {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -149,7 +150,7 @@ button {
 
 .call-to-action {
     display: flex;
-    margin: 50px 120px 50px 120px;
+    margin: 70px 150px 70px 150px;
     padding: 35px 90px 35px 90px;
     background-color: #3882F6;
     border-radius: 8px;
@@ -168,4 +169,12 @@ button {
     border-width: 1px;
     border-color: #F9FAF8;
     align-self: center;
+}
+
+.copyright {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0 30px 0;
 }
