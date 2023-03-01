@@ -15,7 +15,8 @@ body {
 }
 
 .hero-secondary-text,
-a {
+a,
+.bottom-text {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -76,7 +77,7 @@ button {
 
 .information {
     display: flex;
-    padding: 50px 120px 50px 120px;
+    padding: 50px 120px 100px 120px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -104,7 +105,7 @@ button {
     max-width: 150px;
 }
 
-.call-to-action-img {
+.part-two-img {
     display: flex;
     flex: 1;
     max-width: 150px;
@@ -112,6 +113,7 @@ button {
     border-radius: 8px;
     border-style: solid;
     border-color: #3882F6;
+    border-width: 4px;
 }
 
 .subtext {
@@ -119,4 +121,51 @@ button {
     text-align: center;
     flex: 1;
 
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    gap: 10px;
+    padding: 100px 200px 100px 200px;
+}
+
+.quote {
+    display: flex;
+    flex: 1;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+}
+
+.author {
+    display: flex;
+    font-weight: bold;
+    justify-content: end;
+    flex: 1;
+}
+
+.call-to-action {
+    display: flex;
+    margin: 50px 120px 50px 120px;
+    padding: 35px 90px 35px 90px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    justify-content: space-between;
+}
+
+.upper-text {
+    font-size: 20px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.call-to-action > button {
+    display: flex;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #F9FAF8;
+    align-self: center;
 }
